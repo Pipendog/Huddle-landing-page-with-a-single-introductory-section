@@ -1,0 +1,158 @@
+html {
+  background-color: hsl(257, 40%, 49%);
+  width: 90rem;
+  height: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url("https://assets.codepen.io/12084176/bg-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+.logo {
+  padding: 1.5%;
+}
+
+.container {
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+}
+
+.left {
+  width: 43.75 rem;
+  height: 31.25 rem;
+  padding: 1%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 39.375rem;
+  height: 35rem;
+}
+.info {
+  margin-top: 3%;
+  height: 30.625rem;
+  padding: 4%;
+}
+
+.footer {
+  display: flex;
+  align-items: end;
+  flex-direction: row;
+  justify-content: end;
+  height: 4.375rem;
+  column-gap: 1.5rem;
+}
+
+h1 {
+  font-family: poppins;
+  color: hsl(0, 0%, 100%);
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: "Open Sans";
+  color: rgba(212, 196, 239, 255);
+  font-size: 1.15rem;
+}
+.register {
+  border: none;
+  margin-top: 4%;
+  text-align: center;
+  width: 12.5rem;
+  height: 3.75rem;
+  border-radius: 1.875rem;
+  font-family: "Open Sans";
+  color: rgba(127, 111, 180, 255);
+  text-decoration: none;
+  font-size: 1.3rem;
+  box-shadow: 0.3em 0.3em 1em rgb(0 0 0 / 50%);
+}
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: rgba(253, 223, 253, 255);
+}
+
+.footer img {
+  filter: brightness(0) invert(1);
+}
+
+.footer img:hover {
+  filter: invert(44%) sepia(74%) saturate(1306%) hue-rotate(294deg)
+    brightness(102%) contrast(102%);
+}
+
+/* Mobile version*/
+
+@media only screen and (max-width: 475px) {
+  html {
+    background-image: url("https://assets.codepen.io/12084176/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 46.875rem;
+    width: 46.875rem;
+    height: 100rem;
+  }
+  body {
+    background-image: none;
+  }
+  .logo {
+    width: 15rem;
+    height: 2.5rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 37.5rem;
+    height: 80rem;
+    
+  }
+
+  .left img {
+    width: 37.5rem;
+    height: 26.25rem;
+    margin: auto;
+    padding: auto;
+  }
+
+  .info {
+    width: 37.5rem;
+    height: 53.75rem;
+    margin: auto;
+    padding: auto;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 3.25rem;
+  }
+
+  p {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .register {
+    width: 25rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
