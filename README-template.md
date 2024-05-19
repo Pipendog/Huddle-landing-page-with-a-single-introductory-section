@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Huddle Page](https://assets.codepen.io/12084176/screencapture-pipendog-github-io-Huddle-landing-page-with-a-single-introductory-section-2024-05-19-16_47_30.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
