@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Huddle Page](https://assets.codepen.io/12084176/screencapture-pipendog-github-io-Huddle-landing-page-with-a-single-introductory-section-2024-05-19-16_47_30.png)
+![Huddle Page](https://assets.codepen.io/12084176/screencapture-pipendog-github-io-Huddle-landing-page-with-a-single-introductory-section.jpg)
 
 ### Links
 
